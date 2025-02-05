@@ -558,7 +558,6 @@ class SettingsUI(QMainWindow):
         <ul>
         <li>{_("Any text can be placed here. To place items such as date and time, please use the 1989 C standard. Check the format codes on the following link:")} <a href="https://docs.python.org/3/library/datetime.html#format-codes" style="color:{f"rgb({getColors()[2 if isWindowDark() else 4]})"}">{_("Python date and time formats")}</a>
         <li>{_("To disable the zero-padding effect, add a # in between the % and the code: non-zero-padded hours would be %#H, and zero-padded hours would be %H")}</li>        
-        <li>{_("Use the notation {%H+1} to specify offsets. Replace %H with the desired value and +1 for a positive or negative number (+n or -n, respectively, for a <i>n</i> offset), representing the offset.")}</li>
         <li>{_("Use the notation (%H {sec+1}) on the end of string to specify offset in seconds. For example, to add an hour and view in format HH:MM use (%H:%M {sec+3600}), and to decrease an hour use (%H:%M {sec-3600}).")}</li>
         <li>{_('You can use HTML tags to set bold, italics or change the color of a piece of text through the &#60;span style="color: red"&#62;&#60;/span&#62; tag')}</li>
         <li>{_("Click on Apply to apply and preview the format")}</li></ul>
